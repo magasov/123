@@ -1,0 +1,191 @@
+/*MAIN*/
+.poster{
+    background-image: url(../media/about_poster.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #F9FAFB;
+    padding: 18px 0px 52px;
+}
+
+
+.title_category{
+    color: #1c2430;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.slash{
+    color: #91969D;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 15px;
+    margin-left: 13px;
+}
+
+.sub_category{
+    color: #91969D;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.category{
+    margin-bottom: 38px;
+}
+
+.title{
+    color: #2C333D;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 10px;
+}
+
+.subtitle{
+    color: #2C333D;
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.text{
+    color: #2C333D;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.title_why h2{
+    color: #2C333D;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 31px;
+    margin-bottom: 48px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+}
+
+.card svg{
+    margin-right: 15px;
+}
+
+.card_text h4{
+    color: #3B3C3F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 24px;
+    margin-top: 15px;
+    margin-bottom: 11px;
+}
+
+.card_text h5{
+    color: #6B6C72;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.why{
+    padding: 80px 0px;
+}
+
+fieldset{
+    border: 3px solid #E6EFF6;
+    border-radius: 8px;
+    padding: 35px 0px 35px 25px;
+}
+
+.history_grid{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 784px 784px; 
+    column-gap: 40px;
+    row-gap: 30px;
+    
+}
+
+.year{
+    color: #186FD4;
+    font-size: 28px;
+    font-weight: 550;
+    line-height: 26px;
+    padding: 0px 10px;
+    margin-left: -15px;
+}
+
+fieldset h3{
+    color: #2C333D;
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.markers ul li{
+    list-style-type: disc;
+    margin-left: 16px;
+    margin-bottom: 15px;
+    color: red;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+.markers ul li:last-child{
+    margin-bottom: 0px;
+}
+.markers ul li span{
+    color: #2C333D;
+}
+
+.today legend{
+    padding: 0px 10px;
+    text-align: center;
+    color: #186FD4;
+    font-size: 28px;
+    font-weight: 550;
+    line-height: 26px;
+}
+
+.today ul{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 20px;
+    column-gap: 100px;
+    grid-template-rows: 50% 50%;
+
+}
+
+.today{
+    padding: 60px 115px;
+    border: 3px solid #186FD4;
+}
+
+.today ul li span{
+    color: #186FD4;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.today ul li p{
+    color: #2C333D;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
